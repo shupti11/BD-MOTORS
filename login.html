@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - BD Motors</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="process_login.php" method="post">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register</a></p>
+    </div>
+
+
+
+ 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>BD Motors is your trusted partner for new and used cars, offering a wide range of vehicles and exceptional customer service.</p>
+                <div class="social-media">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="newcars.html">New Cars</a></li>
+                    <li><a href="secondhand.html">Second Hand</a></li>
+                    <li><a href="carreview.html">Car Review</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Dhaka, Bangladesh</li>
+                    <li><i class="fas fa-phone"></i> +880 1234 567 890</li>
+                    <li><i class="fas fa-envelope"></i> info@bdmotors.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BD Motors. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Your existing scripts -->
+    
+    <script>
+        function showMenu(){
+            document.getElementById("navLink").style.right = "0";
+        }
+        function hideMenu(){
+            document.getElementById("navLink").style.right = "-200px";
+        }
+    </script>   
+</body>
+</html>
