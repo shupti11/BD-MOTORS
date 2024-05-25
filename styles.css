@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
 }
 .header {
-    height: 100vh;
+    height: 500px;
     width: 100%;
     background-image: linear-gradient(rgba(79, 85, 126, 0.6),rgba(79, 85, 126, 0.6)),url(../BD-MOTORS/pics/f3712c26bca08ab2f4fe36ca9d0e8af4.jpg);
     background-position: center;
