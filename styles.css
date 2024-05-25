@@ -260,4 +260,36 @@ h1{
     font-weight: 600;
     
 }
+.us {
+    margin-top: 5%;
+    text-align: center;
 
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.about {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: flex-start;*/
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+    margin-bottom: 5%;
+}
+.box1 img {
+    width: 400px;
+    height: 400px;
+    border-radius:0px;
+
+}
+.box2 {
+    margin-top: 10%;
+    width: 50%;
+}
